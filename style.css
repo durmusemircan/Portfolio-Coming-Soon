@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    background: #000;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+margin: 20px 0;
+font-size: 50px;
+}
+
+p, .social-links a {
+    margin: 20px 0;
+}
+
+.social-links a {
+    margin: 0 15px;
+    color: #00ff00;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.loading-animation {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #00ff00;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.4rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
