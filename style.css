@@ -68,3 +68,31 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    body, html {
+        font-size: 14px; /* Küçük ekranlarda metin boyutunu azalt */
+    }
+
+    h1 {
+        font-size: 24px; /* Başlık boyutunu azalt */
+    }
+
+    p, .social-links a {
+        margin: 20px 0; /* Daha az boşluk */
+        font-size: 20px; /* Sosyal medya ikonları için font boyutunu azalt */
+    }
+
+    .social-links a {
+        font-size: 30px; /* Sosyal medya ikonlarının boyutunu azalt */
+    }
+
+    .loading-animation {
+        width: 20px; /* Yükleme animasyonunun boyutunu azalt */
+        height: 20px;
+        border-width: 5px; /* Kenarlık genişliğini azalt */
+    }
+
+    footer {
+        font-size: 0.3rem; /* Footer metin boyutunu azalt */
+    }
+}
