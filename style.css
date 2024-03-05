@@ -68,7 +68,7 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
     body, html {
         font-size: 14px; /* Küçük ekranlarda metin boyutunu azalt */
     }
